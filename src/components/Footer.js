@@ -11,6 +11,7 @@ const FooterComponent = () => {
 					href="https://github.com/mahiv87"
 					target="_blank"
 					rel="noreferrer noopener"
+					className="hover:opacity-75"
 				>
 					<img className="h-10 px-2" alt="GitHub logo" src={GitHub} />
 				</a>
@@ -18,6 +19,7 @@ const FooterComponent = () => {
 					href="https://twitter.com/mahiv87"
 					target="_blank"
 					rel="noreferrer noopener"
+					className="hover:opacity-75"
 				>
 					<img
 						className="h-10 px-2"
@@ -29,6 +31,7 @@ const FooterComponent = () => {
 					href="https://www.linkedin.com/in/marcus-herrera-74453b227/"
 					target="_blank"
 					rel="noreferrer noopener"
+					className="hover:opacity-75"
 				>
 					<img
 						className="h-10 px-2"
