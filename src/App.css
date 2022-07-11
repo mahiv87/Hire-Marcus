@@ -30,18 +30,12 @@
 	border-radius: 10px;
 	overflow: hidden;
 }
-/* 
-.avatar {
-	position: relative;
-	bottom: -50px;
-	left: 5rem;
-	height: 200px;
-	width: 200px;
-	border: solid 2px white;
-	border-radius: 50%;
-	display: inline-block;
-}
 
-.container {
-	min-height: calc(100vh - 150px);
-} */
+.project-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	grid-auto-rows: 1fr;
+	gap: 1rem 1rem;
+	grid-auto-flow: row;
+	margin-inline: 2rem auto;
+}

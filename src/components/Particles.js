@@ -25,7 +25,8 @@ const ParticlesComponent = (props) => {
 					density: {
 						enable: true,
 						area: 1000
-					}
+					},
+					max: 500
 				},
 				opacity: {
 					animation: {
