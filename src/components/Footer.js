@@ -1,6 +1,6 @@
-import GitHub from '../github.png';
-import Twitter from '../twitter.png';
-import LinkedIn from '../linkedin.png';
+import GitHub from '../images/github.png';
+import Twitter from '../images/twitter.png';
+import LinkedIn from '../images/linkedin.png';
 
 const FooterComponent = () => {
 	return (
