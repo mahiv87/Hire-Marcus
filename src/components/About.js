@@ -1,5 +1,6 @@
 import React from 'react';
-import myPhoto from '../images/me.png';
+import MyPhoto from '../images/me.png';
+import MyResume from '../images/Marcus-Herrera-Resume.pdf';
 
 const About = () => {
 	return (
@@ -9,20 +10,24 @@ const About = () => {
 				id="glass"
 			>
 				<figure className="glass-container-profile " id="profile">
-					<img alt="Marcus" src={myPhoto} />
+					<img alt="Marcus" src={MyPhoto} />
 				</figure>
 				<div className="glass-container-text w-2/3" id="text">
-					<h2
-						id="glass_title"
-						className="font-bold text-2xl pb-2 uppercase"
-					>
-						About Me
+					<h2 id="glass_title" className="text-2xl pb-2 uppercase">
+						About_Me
 					</h2>
 					<p id="lorem_text" className="">
 						Hello! I'm a Full Stack Developer based in Denver, CO.
 						My developer journey began in February of 2022, after 12
 						years in the machining industry.
 					</p>
+					<div className="w-24">
+						<a href={MyResume} target="__blank">
+							<p className="py-4">
+								RESUME <i className="fa-solid fa-download"></i>
+							</p>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>

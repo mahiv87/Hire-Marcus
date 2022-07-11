@@ -27,7 +27,11 @@ export default function Navbar({ fixed, currentPage, handlePageChange }) {
 					<ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
 						<li className="nav-item">
 							<a
-								className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+								className={
+									currentPage === 'About'
+										? 'px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75 focus:border-b'
+										: 'px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75'
+								}
 								href="#About"
 								onClick={() => handlePageChange('About')}
 							>
@@ -37,7 +41,11 @@ export default function Navbar({ fixed, currentPage, handlePageChange }) {
 						</li>
 						<li className="nav-item">
 							<a
-								className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+								className={
+									currentPage === 'Portfolio'
+										? 'px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75 focus:border-b'
+										: 'px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75'
+								}
 								href="#Portfolio"
 								onClick={() => handlePageChange('Portfolio')}
 							>
@@ -47,7 +55,11 @@ export default function Navbar({ fixed, currentPage, handlePageChange }) {
 						</li>
 						<li className="nav-item">
 							<a
-								className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+								className={
+									currentPage === 'Contact'
+										? 'px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75 focus:border-b'
+										: 'px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75'
+								}
 								href="#Contact"
 								onClick={() => handlePageChange('Contact')}
 							>
