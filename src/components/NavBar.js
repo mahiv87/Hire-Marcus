@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Navbar({ fixed }) {
+export default function Navbar({ fixed, currentPage, handlePageChange }) {
 	const [navbarOpen, setNavbarOpen] = React.useState(false);
 	return (
 		<nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-neutral-800 mb-3">
@@ -29,6 +29,7 @@ export default function Navbar({ fixed }) {
 							<a
 								className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
 								href="#About"
+								onClick={() => handlePageChange('About')}
 							>
 								<i className="fab fa-regular fa-user text-lg leading-lg text-white opacity-75"></i>
 								<span className="ml-2">About</span>
@@ -38,6 +39,7 @@ export default function Navbar({ fixed }) {
 							<a
 								className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
 								href="#Portfolio"
+								onClick={() => handlePageChange('Portfolio')}
 							>
 								<i className="fab fa-regular fa-folder text-lg leading-lg text-white opacity-75"></i>
 								<span className="ml-2">Portfolio</span>
@@ -47,6 +49,7 @@ export default function Navbar({ fixed }) {
 							<a
 								className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
 								href="#Contact"
+								onClick={() => handlePageChange('Contact')}
 							>
 								<i className="fab fa-regular fa-address-card text-lg leading-lg text-white opacity-75"></i>
 								<span className="ml-2">Contact</span>
