@@ -5,6 +5,7 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import About from './components/About';
 import Portfolio from './components/Projects';
+import Contact from './components/Contact';
 
 function App() {
 	const [currentPage, setCurrentPage] = useState('About');
@@ -16,7 +17,7 @@ function App() {
 		if (currentPage === 'Portfolio') {
 			return <Portfolio />;
 		}
-		// return <Contact />;
+		return <Contact />;
 	};
 
 	const handlePageChange = (page) => setCurrentPage(page);
@@ -31,8 +32,6 @@ function App() {
 				/>
 			</div>
 			{renderPage()}
-			{/* <About /> */}
-			{/* <Portfolio /> */}
 			<Footer />
 		</div>
 	);
