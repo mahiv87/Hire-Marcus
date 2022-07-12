@@ -1,6 +1,5 @@
 import React from 'react';
 import MyPhoto from '../images/me.png';
-import MyResume from '../images/Marcus-Herrera-Resume.pdf';
 
 const About = () => {
 	return (
@@ -21,13 +20,6 @@ const About = () => {
 						My developer journey began in February of 2022, after 12
 						years in the machining industry.
 					</p>
-					<div className="w-24">
-						<a href={MyResume} target="__blank">
-							<p className="py-4">
-								RESUME <i className="fa-solid fa-download"></i>
-							</p>
-						</a>
-					</div>
 				</div>
 			</div>
 		</div>

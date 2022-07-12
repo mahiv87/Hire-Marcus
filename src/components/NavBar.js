@@ -1,4 +1,5 @@
 import React from 'react';
+import MyResume from '../images/Marcus-Herrera-Resume.pdf';
 
 export default function Navbar({ fixed, currentPage, handlePageChange }) {
 	const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -65,6 +66,17 @@ export default function Navbar({ fixed, currentPage, handlePageChange }) {
 							>
 								<i className="fab fa-regular fa-address-card text-lg leading-lg text-white opacity-75"></i>
 								<span className="ml-2">Contact</span>
+							</a>
+						</li>
+						<li className="nav-item">
+							<a
+								className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+								href={MyResume}
+								target="_blank"
+								rel="noreferrer noopener"
+							>
+								<i className="fab fa-solid fa-download text-lg leading-lg text-white opacity-75"></i>
+								<span className="ml-2">RESUME</span>
 							</a>
 						</li>
 					</ul>

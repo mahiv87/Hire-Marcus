@@ -9,7 +9,7 @@ import TechBlog from '../images/Tech-Blog-dt.png';
 const ProjectsComponent = () => {
 	return (
 		<div className="about container mx-auto mb-10 flex justify-evenly items-center">
-			<div className="project-container w-5/6">
+			<div className="project-container md:w-5/6 w-full">
 				<div className="glass-container mx-auto">
 					<img alt="Tech Blog" src={TechBlog}></img>
 					<h1 className="py-2 text-2xl">Tech_Blog</h1>
