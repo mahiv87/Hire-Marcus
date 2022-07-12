@@ -8,7 +8,7 @@ export default function Navbar({ fixed, currentPage, handlePageChange }) {
 			<div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
 				<div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
 					<p className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white">
-						Full_Stack_Developer / Marcus_Herrera
+						Marcus_Herrera
 					</p>
 					<button
 						className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -20,10 +20,10 @@ export default function Navbar({ fixed, currentPage, handlePageChange }) {
 				</div>
 				<div
 					className={
-						'lg:flex flex-grow items-center' +
-						(navbarOpen ? ' flex' : ' hidden')
+						navbarOpen
+							? 'absolute z-10 top-14 left-0 bg-neutral-800 w-full flex'
+							: 'lg:flex flex-grow items-center hidden'
 					}
-					id="example-navbar-danger"
 				>
 					<ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
 						<li className="nav-item">
@@ -34,7 +34,9 @@ export default function Navbar({ fixed, currentPage, handlePageChange }) {
 										: 'px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75'
 								}
 								href="#About"
-								onClick={() => handlePageChange('About')}
+								onClick={function () {
+									handlePageChange('About');
+								}}
 							>
 								<i className="fab fa-regular fa-user text-lg leading-lg text-white opacity-75"></i>
 								<span className="ml-2">About</span>
@@ -48,7 +50,9 @@ export default function Navbar({ fixed, currentPage, handlePageChange }) {
 										: 'px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75'
 								}
 								href="#Portfolio"
-								onClick={() => handlePageChange('Portfolio')}
+								onClick={function () {
+									handlePageChange('Portfolio');
+								}}
 							>
 								<i className="fab fa-regular fa-folder text-lg leading-lg text-white opacity-75"></i>
 								<span className="ml-2">Portfolio</span>
@@ -62,7 +66,9 @@ export default function Navbar({ fixed, currentPage, handlePageChange }) {
 										: 'px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75'
 								}
 								href="#Contact"
-								onClick={() => handlePageChange('Contact')}
+								onClick={function () {
+									handlePageChange('Contact');
+								}}
 							>
 								<i className="fab fa-regular fa-address-card text-lg leading-lg text-white opacity-75"></i>
 								<span className="ml-2">Contact</span>
