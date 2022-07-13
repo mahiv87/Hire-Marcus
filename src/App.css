@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .header {
 	width: 100%;
 }
@@ -37,6 +41,14 @@
 	grid-auto-flow: row;
 }
 
+.project-card {
+	@apply glass-container mx-auto md:grayscale hover:grayscale-0;
+}
+
+.project-link {
+	@apply px-3 py-1 flex items-center text-sm uppercase leading-snug text-white hover:opacity-75 underline-animation;
+}
+
 .underline-animation:hover {
 	width: 0%;
 	animation: hover 500ms ease-in-out 0s 1 normal none;
@@ -53,4 +65,8 @@
 	100% {
 		width: 0%;
 	}
+}
+
+.contact-input {
+	@apply mt-0 w-full px-0.5 border-0 border-b border-gray-200 focus:ring-0 focus:border-white text-white bg-neutral-800 bg-opacity-0;
 }

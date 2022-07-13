@@ -16,16 +16,7 @@ const ContactComponent = () => {
 								</span>
 								<input
 									type="text"
-									className="
-                    mt-0                    
-                    w-full
-                    px-0.5
-                    border-0 border-b border-gray-200
-                    focus:ring-0 focus:border-white
-                    text-white
-                    bg-neutral-800
-                    bg-opacity-0
-                  "
+									className="contact-input"
 									placeholder=""
 								/>
 							</label>
@@ -35,16 +26,7 @@ const ContactComponent = () => {
 								</span>
 								<input
 									type="email"
-									className="
-                    mt-0                    
-                    w-full
-                    px-0.5
-                    border-0 border-b border-gray-200
-                    focus:ring-0 focus:border-white
-                    text-white
-                    bg-neutral-800
-                    bg-opacity-0
-                  "
+									className="contact-input"
 									placeholder=""
 								/>
 							</label>
@@ -53,16 +35,7 @@ const ContactComponent = () => {
 									Message
 								</span>
 								<textarea
-									className="
-                    mt-0                    
-                    w-full
-                    px-0.5
-                    border-0 border-b border-gray-200
-                    focus:ring-0 focus:border-white
-                    text-white
-                    bg-neutral-800
-                    bg-opacity-0
-                  "
+									className="contact-input"
 									rows="2"
 								></textarea>
 							</label>
