@@ -20,6 +20,7 @@ This is my new portfolio built on React
 
 ## Screenshot
 
+![Mobile screenshot of Marcus' React Portfolio](./assets/images/MarcusReactMobile.png)
 ![Screenshot of Marcus' React Portfolio](./assets/images/marcusReact.gif)
 
 ## Technologies
