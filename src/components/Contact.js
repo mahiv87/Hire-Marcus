@@ -68,7 +68,7 @@ const ContactComponent = () => {
 							</label>
 							<button
 								type="button"
-								className="border-solid border w-20 p-1 rounded-sm mx-auto hover:shadow-md hover:shadow-white focus:bg-white focus:text-black"
+								className="border-solid border w-20 p-1 rounded-sm mx-auto uppercase hover:shadow-sm hover:shadow-white focus:bg-white focus:text-black"
 							>
 								Submit
 							</button>
