@@ -66,6 +66,12 @@ const ContactComponent = () => {
 									rows="2"
 								></textarea>
 							</label>
+							<button
+								type="button"
+								className="border-solid border w-20 p-1 rounded-sm mx-auto hover:shadow-md hover:shadow-white focus:bg-white focus:text-black"
+							>
+								Submit
+							</button>
 						</div>
 					</div>
 				</div>

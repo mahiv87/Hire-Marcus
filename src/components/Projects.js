@@ -10,7 +10,7 @@ const ProjectsComponent = () => {
 	return (
 		<div className="about container mx-auto mb-10 flex justify-evenly items-center">
 			<div className="project-container md:w-5/6 w-full">
-				<div className="glass-container mx-auto">
+				<div className="glass-container mx-auto grayscale hover:grayscale-0">
 					<img alt="Tech Blog" src={TechBlog}></img>
 					<h1 className="py-2 text-2xl">Tech_Blog</h1>
 					<a
@@ -30,7 +30,7 @@ const ProjectsComponent = () => {
 						/Deployed_App
 					</a>
 				</div>
-				<div className="glass-container  mx-auto">
+				<div className="glass-container mx-auto grayscale hover:grayscale-0">
 					<img alt="Park Pass" src={ParkPass}></img>
 					<h1 className="py-2 text-2xl">Park_Pass</h1>
 					<a
@@ -50,7 +50,7 @@ const ProjectsComponent = () => {
 						/Deployed_App
 					</a>
 				</div>
-				<div className="glass-container  mx-auto">
+				<div className="glass-container mx-auto grayscale hover:grayscale-0">
 					<img alt="CSS Snippet" src={CssSnippet}></img>
 					<h1 className="py-2 text-2xl">CSS_Cheatsheet</h1>
 					<a
@@ -70,7 +70,7 @@ const ProjectsComponent = () => {
 						/Deployed_App
 					</a>
 				</div>
-				<div className="glass-container  mx-auto">
+				<div className="glass-container mx-auto grayscale hover:grayscale-0">
 					<img alt="Password Generator" src={PasswordGen}></img>
 					<h1 className="py-2 text-2xl">Password_Generator</h1>
 					<a
@@ -90,7 +90,7 @@ const ProjectsComponent = () => {
 						/Deployed_App
 					</a>
 				</div>
-				<div className="glass-container  mx-auto">
+				<div className="glass-container mx-auto grayscale hover:grayscale-0">
 					<img
 						alt="Progressiv Text Editor"
 						src={ProgressiveWebApp}
@@ -113,7 +113,7 @@ const ProjectsComponent = () => {
 						/Deployed_App
 					</a>
 				</div>
-				<div className="glass-container  mx-auto">
+				<div className="glass-container mx-auto grayscale hover:grayscale-0">
 					<img
 						alt="Team Profile Generator"
 						src={TeamProfileGen}
