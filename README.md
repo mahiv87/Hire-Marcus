@@ -39,7 +39,7 @@ N/A
 
 ## Usage
 
-Visit page at
+Visit page at https://mahiv87.github.io/hire-marcus/
 
 ## License
 
