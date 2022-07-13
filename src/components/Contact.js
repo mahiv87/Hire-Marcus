@@ -84,7 +84,7 @@ const ContactComponent = () => {
 		<div className="about container mx-auto flex justify-center items-center">
 			<div className="glass-container flex justify-center items-center">
 				<div className="py-6">
-					<h2 className="text-2xl font-bold text-white">
+					<h2 className="text-2xl text-white uppercase">
 						Contact_Me
 					</h2>
 					<div className="mt-8 max-w-md">
