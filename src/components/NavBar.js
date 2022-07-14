@@ -18,7 +18,14 @@ export default function Navbar({ fixed, currentPage, handlePageChange }) {
 						type="button"
 						onClick={() => setNavbarOpen(!navbarOpen)}
 					>
-						<i className="fas fa-bars"></i>
+						<i
+							className={
+								navbarOpen
+									? 'fa-solid fa-plus rotate-45'
+									: 'fa-solid fa-plus'
+							}
+						></i>
+						{/* <i className="fas fa-bars"></i> */}
 					</button>
 				</div>
 				<div
