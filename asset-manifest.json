@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hire-marcus/static/css/main.831a1b09.css",
-    "main.js": "/hire-marcus/static/js/main.2bf158f0.js",
+    "main.css": "/hire-marcus/static/css/main.30f1dc19.css",
+    "main.js": "/hire-marcus/static/js/main.ad4b45c0.js",
     "static/media/Tech-Blog-dt.png": "/hire-marcus/static/media/Tech-Blog-dt.adaf27176c0ad3f1c892.png",
     "static/media/parkpass.png": "/hire-marcus/static/media/parkpass.1b9eabc114e54fbc95ca.png",
     "static/media/me.png": "/hire-marcus/static/media/me.3933fc41ab1a2c154881.png",
@@ -13,11 +13,11 @@
     "static/media/github.png": "/hire-marcus/static/media/github.6b4e2b53f7a48c9e4a31.png",
     "static/media/twitter.png": "/hire-marcus/static/media/twitter.05422913e0581046bb78.png",
     "index.html": "/hire-marcus/index.html",
-    "main.831a1b09.css.map": "/hire-marcus/static/css/main.831a1b09.css.map",
-    "main.2bf158f0.js.map": "/hire-marcus/static/js/main.2bf158f0.js.map"
+    "main.30f1dc19.css.map": "/hire-marcus/static/css/main.30f1dc19.css.map",
+    "main.ad4b45c0.js.map": "/hire-marcus/static/js/main.ad4b45c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.831a1b09.css",
-    "static/js/main.2bf158f0.js"
+    "static/css/main.30f1dc19.css",
+    "static/js/main.ad4b45c0.js"
   ]
 }
