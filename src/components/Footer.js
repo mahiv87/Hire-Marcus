@@ -6,7 +6,7 @@ import LinkedIn from '../images/linkedin.png';
 const FooterComponent = () => {
 	return (
 		<div className="relative">
-			<footer className="fixed bottom-0 left-0 right-0 flex flex-wrap items-center justify-center px-2 py-3 bg-neutral-800">
+			<footer className="md:fixed md:bottom-0 md:left-0 md:right-0 flex flex-wrap items-center justify-center px-2 py-3 bg-neutral-800">
 				<a
 					href="https://github.com/mahiv87"
 					target="_blank"
