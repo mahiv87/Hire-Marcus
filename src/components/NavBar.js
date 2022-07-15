@@ -46,6 +46,7 @@ export default function Navbar({ fixed, currentPage, handlePageChange }) {
 								href="#About"
 								onClick={function () {
 									handlePageChange('About');
+									setNavbarOpen(!navbarOpen);
 								}}
 							>
 								<i className="fab fa-regular fa-user text-lg leading-lg text-white opacity-75"></i>
@@ -62,6 +63,7 @@ export default function Navbar({ fixed, currentPage, handlePageChange }) {
 								href="#Portfolio"
 								onClick={function () {
 									handlePageChange('Portfolio');
+									setNavbarOpen(!navbarOpen);
 								}}
 							>
 								<i className="fab fa-regular fa-folder text-lg leading-lg text-white opacity-75"></i>
@@ -78,6 +80,7 @@ export default function Navbar({ fixed, currentPage, handlePageChange }) {
 								href="#Contact"
 								onClick={function () {
 									handlePageChange('Contact');
+									setNavbarOpen(!navbarOpen);
 								}}
 							>
 								<i className="fab fa-regular fa-address-card text-lg leading-lg text-white opacity-75"></i>
@@ -90,6 +93,7 @@ export default function Navbar({ fixed, currentPage, handlePageChange }) {
 								href={MyResume}
 								target="_blank"
 								rel="noreferrer noopener"
+								onClick={() => setNavbarOpen(!navbarOpen)}
 							>
 								<i className="fab fa-solid fa-download text-lg leading-lg text-white opacity-75"></i>
 								<span className="ml-2">RESUME</span>
