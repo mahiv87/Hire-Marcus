@@ -15,7 +15,7 @@ const About = () => {
 					<h2 id="glass_title" className="text-2xl pb-2 uppercase">
 						About_Me
 					</h2>
-					<p id="lorem_text" className="">
+					<p id="lorem_text" className=" indent-8">
 						Hello! I'm a Full Stack Developer based in Denver, CO.
 						My developer journey began in February of 2022, after 12
 						years in the machining industry.

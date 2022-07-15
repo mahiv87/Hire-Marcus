@@ -11,7 +11,7 @@
 }
 
 .glass-container {
-	width: max(370px, 60%);
+	width: max(360px, 60%);
 	height: auto;
 	padding: 2rem;
 	color: white;
