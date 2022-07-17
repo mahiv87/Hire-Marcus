@@ -1,36 +1,37 @@
 import React from 'react';
-import CssSnippet from '../images/CSS_992.png';
-import ParkPass from '../images/parkpass.png';
-import ProgressiveWebApp from '../images/PWA.png';
-import PasswordGen from '../images/Super-Awesome-Password-Generator.png';
-import TeamProfileGen from '../images/Team-Profile.png';
-import TechBlog from '../images/Tech-Blog-dt.png';
 
-const ProjectsComponent = () => {
+const ProjectsComponent = (props) => {
 	return (
-		<div className="about container mx-auto mb-10 flex justify-evenly items-center">
-			<div className="project-container md:w-5/6 w-full">
-				<div className="project-card">
-					<img alt="Tech Blog" src={TechBlog}></img>
-					<h1 className="py-2 text-2xl">Tech_Blog</h1>
-					<a
-						className="project-link"
-						href="https://github.com/mahiv87/Tech-Blog"
-						target="_blank"
-						rel="noreferrer noopener"
-					>
-						/GitHub_Repository
-					</a>
-					<a
-						className="project-link"
-						href="https://calm-gorge-51353.herokuapp.com/"
-						target="_blank"
-						rel="noreferrer noopener"
-					>
-						/Deployed_App
-					</a>
-				</div>
-				<div className="project-card">
+		<div className="project-card">
+			<img alt="Project mockup" src={props.image}></img>
+			<h1 className="py-2 text-2xl">{props.name}</h1>
+			<a
+				className="project-link"
+				href={props.repoLink}
+				target="_blank"
+				rel="noreferrer noopener"
+			>
+				/GitHub_Repository
+			</a>
+			<a
+				className="project-link"
+				href={props.deployedApp}
+				target="_blank"
+				rel="noreferrer noopener"
+			>
+				/Deployed_App
+			</a>
+		</div>
+	);
+};
+
+export default ProjectsComponent;
+
+{
+	/* <div className="about container mx-auto mb-10 flex justify-evenly items-center">
+<div className="project-container md:w-5/6 w-full">
+
+<div className="project-card">
 					<img alt="Park Pass" src={ParkPass}></img>
 					<h1 className="py-2 text-2xl">Park_Pass</h1>
 					<a
@@ -129,8 +130,5 @@ const ProjectsComponent = () => {
 					</a>
 				</div>
 			</div>
-		</div>
-	);
-};
-
-export default ProjectsComponent;
+		</div> */
+}
