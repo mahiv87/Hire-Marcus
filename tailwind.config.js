@@ -16,9 +16,8 @@ module.exports = {
 					'50%': { transform: 'rotate(3deg)' }
 				},
 				fadeIn: {
-					'0%': { opacity: '0', transform: 'scale(1)' },
-					'50%': { opacity: '0.5', transform: 'scale(1.25)' },
-					'100%': { opacity: '1', transform: 'scale(1)' }
+					'0%': { opacity: '0' },
+					'100%': { opacity: '1' }
 				}
 			}
 		}
