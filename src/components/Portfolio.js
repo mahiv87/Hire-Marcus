@@ -49,7 +49,7 @@ const Portfolio = () => {
 	];
 
 	return (
-		<div className="about container mx-auto mb-10 flex justify-evenly items-center">
+		<div className="about container mx-auto mb-10 flex justify-evenly items-center animate-fadeIn">
 			<div className="project-container md:w-5/6 w-full">
 				{projects &&
 					projects.map((project) => (

@@ -3,7 +3,7 @@ import MyPhoto from '../images/me.png';
 
 const About = () => {
 	return (
-		<div className="about flex justify-center items-center">
+		<div className="about flex justify-center items-center animate-fadeIn">
 			<div
 				className="glass-container flex flex-wrap justify-center items-center"
 				id="glass"

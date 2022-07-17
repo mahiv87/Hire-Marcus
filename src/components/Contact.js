@@ -81,7 +81,7 @@ const ContactComponent = () => {
 	};
 
 	return (
-		<div className="about container mx-auto flex justify-center items-center">
+		<div className="about container mx-auto flex justify-center items-center animate-fadeIn">
 			<div className="glass-container flex justify-center items-center">
 				<div className="py-6">
 					<h2 className="text-2xl text-white uppercase">
