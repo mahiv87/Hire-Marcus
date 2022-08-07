@@ -7,7 +7,7 @@
 }
 
 .about {
-	min-height: calc(100vh - 200px);
+	min-height: calc(100vh - 157px);
 }
 
 .glass-container {
@@ -46,7 +46,7 @@
 }
 
 .project-link {
-	@apply px-3 py-1 flex items-center text-sm uppercase leading-snug text-white hover:opacity-75 underline-animation;
+	@apply px-3 pt-2 flex items-center text-sm uppercase font-bold leading-snug text-white hover:opacity-75 underline-animation;
 }
 
 .underline-animation:hover {

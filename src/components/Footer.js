@@ -6,7 +6,7 @@ import LinkedIn from '../images/linkedin.png';
 const FooterComponent = () => {
 	return (
 		<div className="relative mt-3">
-			<footer className="md:fixed md:bottom-0 md:left-0 md:right-0 flex flex-wrap items-center justify-center px-2 py-3 bg-neutral-800">
+			<footer className="flex flex-wrap items-center justify-center px-2 py-3 bg-neutral-800">
 				<a
 					href="https://github.com/mahiv87"
 					target="_blank"
@@ -21,11 +21,7 @@ const FooterComponent = () => {
 					rel="noreferrer noopener"
 					className="hover:opacity-75"
 				>
-					<img
-						className="h-10 px-2"
-						alt="Twitter logo"
-						src={Twitter}
-					/>
+					<img className="h-10 px-2" alt="Twitter logo" src={Twitter} />
 				</a>
 				<a
 					href="https://www.linkedin.com/in/marcus-herrera-74453b227/"
@@ -33,11 +29,7 @@ const FooterComponent = () => {
 					rel="noreferrer noopener"
 					className="hover:opacity-75"
 				>
-					<img
-						className="h-10 px-2"
-						alt="LinkedIn logo"
-						src={LinkedIn}
-					/>
+					<img className="h-10 px-2" alt="LinkedIn logo" src={LinkedIn} />
 				</a>
 			</footer>
 		</div>
@@ -45,3 +37,5 @@ const FooterComponent = () => {
 };
 
 export default FooterComponent;
+
+// md:fixed md:bottom-0 md:left-0 md:right-0
