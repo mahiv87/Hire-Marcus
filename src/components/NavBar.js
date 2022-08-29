@@ -1,5 +1,5 @@
 import React from 'react';
-import MyResume from '../images/Marcus-Herrera-Resume.pdf';
+import MyResume from '../images/Marcus_Herrera.pdf';
 
 export default function Navbar({ fixed, currentPage, handlePageChange }) {
 	const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -8,9 +8,7 @@ export default function Navbar({ fixed, currentPage, handlePageChange }) {
 			<div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
 				<div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
 					<p className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white">
-						<span className="text-xs pr-1">
-							Full_Stack_Developer/
-						</span>
+						<span className="text-xs pr-1">Full_Stack_Developer/</span>
 						Marcus_Herrera
 					</p>
 					<button
@@ -18,13 +16,7 @@ export default function Navbar({ fixed, currentPage, handlePageChange }) {
 						type="button"
 						onClick={() => setNavbarOpen(!navbarOpen)}
 					>
-						<i
-							className={
-								navbarOpen
-									? 'fa-solid fa-plus rotate-45'
-									: 'fa-solid fa-plus'
-							}
-						></i>
+						<i className={navbarOpen ? 'fa-solid fa-plus rotate-45' : 'fa-solid fa-plus'}></i>
 						{/* <i className="fas fa-bars"></i> */}
 					</button>
 				</div>
