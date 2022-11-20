@@ -10,9 +10,15 @@ const ParticlesComponent = (props) => {
 				zIndex: -1
 			},
 			particles: {
+				color: {
+					value: '#303030'
+				},
 				links: {
 					enable: true,
-					distance: 100
+					distance: 100,
+					color: {
+						value: '#303030'
+					}
 				},
 				move: {
 					enable: true

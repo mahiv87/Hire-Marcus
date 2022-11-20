@@ -37,7 +37,7 @@ const Portfolio = () => {
 			image: TechBlog,
 			repoLink: 'https://github.com/mahiv87/Tech-Blog',
 			deployedApp: 'https://calm-gorge-51353.herokuapp.com/',
-			description: 'Full stack CMS-style blog site'
+			description: 'Full stack CMS blog site'
 		},
 		{
 			name: 'CSS_Cheatsheet',
