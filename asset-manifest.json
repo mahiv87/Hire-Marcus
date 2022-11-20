@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/hire-marcus/static/css/main.0a571eb0.css",
-    "main.js": "/hire-marcus/static/js/main.53a7b971.js",
-    "static/media/Marcus_Herrera.pdf": "/hire-marcus/static/media/Marcus_Herrera.6fd49f94352ebece1ec4.pdf",
+    "main.js": "/hire-marcus/static/js/main.02038478.js",
     "static/media/MoovySpace.png": "/hire-marcus/static/media/MoovySpace.bbe1cb77d5e5808b4773.png",
     "static/media/parkpass.png": "/hire-marcus/static/media/parkpass.beb4d02f99455b103674.png",
     "static/media/me.png": "/hire-marcus/static/media/me.3933fc41ab1a2c154881.png",
@@ -10,16 +9,17 @@
     "static/media/Tech-Blog-dt.png": "/hire-marcus/static/media/Tech-Blog-dt.bb864b500fe492f03b6e.png",
     "static/media/CSS_992.png": "/hire-marcus/static/media/CSS_992.3b97f780d38830ea48e2.png",
     "static/media/ptss3.png": "/hire-marcus/static/media/ptss3.0312022fc228315d2424.png",
+    "static/media/Herrera-Marcus.pdf": "/hire-marcus/static/media/Herrera-Marcus.c8a787985441e6a8b945.pdf",
     "static/media/PWA.png": "/hire-marcus/static/media/PWA.4890d3b6c11f4f4b577f.png",
     "static/media/Super-Awesome-Password-Generator.png": "/hire-marcus/static/media/Super-Awesome-Password-Generator.80ce74c70ac9b1d40e6a.png",
     "static/media/github.png": "/hire-marcus/static/media/github.6b4e2b53f7a48c9e4a31.png",
     "static/media/twitter.png": "/hire-marcus/static/media/twitter.05422913e0581046bb78.png",
     "index.html": "/hire-marcus/index.html",
     "main.0a571eb0.css.map": "/hire-marcus/static/css/main.0a571eb0.css.map",
-    "main.53a7b971.js.map": "/hire-marcus/static/js/main.53a7b971.js.map"
+    "main.02038478.js.map": "/hire-marcus/static/js/main.02038478.js.map"
   },
   "entrypoints": [
     "static/css/main.0a571eb0.css",
-    "static/js/main.53a7b971.js"
+    "static/js/main.02038478.js"
   ]
 }
