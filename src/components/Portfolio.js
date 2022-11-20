@@ -27,8 +27,8 @@ const Portfolio = () => {
 		{
 			name: 'MoovySpace',
 			image: MoovySpace,
-			repoLink: 'https://github.com/jgault87/MoovySpace',
-			deployedApp: 'https://moovyspace.herokuapp.com/',
+			repoLink: 'https://github.com/mahiv87/MoovySpace2.0',
+			deployedApp: 'https://moovyspace2.herokuapp.com/',
 			description:
 				"MoovySpace is a platform for cinephiles to log movies they've watched, star movies that they particularly liked, and see what movies other users have liked in a live feed"
 		},
