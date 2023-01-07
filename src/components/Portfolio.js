@@ -2,7 +2,7 @@ import ProjectsComponent from './Projects';
 import CssSnippet from '../images/CSS_992.png';
 import ParkPass from '../images/parkpass.png';
 import ProgressiveWebApp from '../images/PWA.png';
-import PasswordGen from '../images/Super-Awesome-Password-Generator.png';
+import MortgageApp from '../images/mortgage-calculator.png';
 import TechBlog from '../images/Tech-Blog-dt.png';
 import ProjectTracker from '../images/ptss3.png';
 import FindABook from '../images/find-a-book.png';
@@ -47,11 +47,12 @@ const Portfolio = () => {
 			description: 'CSS snippets displayed as cards using grid'
 		},
 		{
-			name: 'Password_Generator',
-			image: PasswordGen,
-			repoLink: 'https://github.com/mahiv87/Super-Awesome-Password-Generator',
-			deployedApp: 'https://mahiv87.github.io/Super-Awesome-Password-Generator/',
-			description: 'Generate a random password'
+			name: 'Mortgage_Calculator',
+			image: MortgageApp,
+			repoLink: 'https://github.com/mahiv87/mortgage-calculator',
+			deployedApp: false,
+			description:
+				'Command line interface app to calculate mortgage and display the payment schedule built with TypeScript'
 		},
 		{
 			name: 'J.A.T.E',

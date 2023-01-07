@@ -16,9 +16,15 @@ const About = () => {
 						About_Me
 					</h2>
 					<p id="lorem_text" className=" indent-8">
-						Hello! I'm a Full Stack Developer based in Denver, CO.
-						My developer journey began in February of 2022, after 12
-						years in the machining industry.
+						Hello! As a full stack developer, I am a highly motivated and
+						adaptable problem-solver with a passion for creating intuitive,
+						functional websites and applications. I am skilled in both front-end
+						and back-end development, with a strong foundation in languages such
+						as HTML, CSS, and JavaScript/TypeScript. I am always eager to learn
+						and stay up-to-date with the latest technologies and best practices
+						in the field. I pride myself on my ability to work collaboratively
+						in a team environment and take pride in delivering high-quality code
+						that meets the needs of users.
 					</p>
 				</div>
 			</div>

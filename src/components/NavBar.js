@@ -1,5 +1,5 @@
 import React from 'react';
-import MyResume from '../images/Herrera-Marcus.pdf';
+import MyResume from '../images/Marcus-Herrera-Resume.pdf';
 
 export default function Navbar({ fixed, currentPage, handlePageChange }) {
 	const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -16,7 +16,11 @@ export default function Navbar({ fixed, currentPage, handlePageChange }) {
 						type="button"
 						onClick={() => setNavbarOpen(!navbarOpen)}
 					>
-						<i className={navbarOpen ? 'fa-solid fa-plus rotate-45' : 'fa-solid fa-plus'}></i>
+						<i
+							className={
+								navbarOpen ? 'fa-solid fa-plus rotate-45' : 'fa-solid fa-plus'
+							}
+						></i>
 						{/* <i className="fas fa-bars"></i> */}
 					</button>
 				</div>
