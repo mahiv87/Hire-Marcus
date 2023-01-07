@@ -1,7 +1,7 @@
 import ProjectsComponent from './Projects';
-import CssSnippet from '../images/CSS_992.png';
+// import CssSnippet from '../images/CSS_992.png';
 import ParkPass from '../images/parkpass.png';
-import ProgressiveWebApp from '../images/PWA.png';
+// import ProgressiveWebApp from '../images/PWA.png';
 import MortgageApp from '../images/mortgage-calculator.png';
 import TechBlog from '../images/Tech-Blog-dt.png';
 import ProjectTracker from '../images/ptss3.png';
@@ -39,13 +39,13 @@ const Portfolio = () => {
 			deployedApp: 'https://calm-gorge-51353.herokuapp.com/',
 			description: 'Full stack CMS blog site'
 		},
-		{
-			name: 'CSS_Cheatsheet',
-			image: CssSnippet,
-			repoLink: 'https://github.com/mahiv87/CSS-Snippet-Cheatsheet',
-			deployedApp: 'https://mahiv87.github.io/CSS-Snippet-Cheatsheet/',
-			description: 'CSS snippets displayed as cards using grid'
-		},
+		// {
+		// 	name: 'CSS_Cheatsheet',
+		// 	image: CssSnippet,
+		// 	repoLink: 'https://github.com/mahiv87/CSS-Snippet-Cheatsheet',
+		// 	deployedApp: 'https://mahiv87.github.io/CSS-Snippet-Cheatsheet/',
+		// 	description: 'CSS snippets displayed as cards using grid'
+		// },
 		{
 			name: 'Mortgage_Calculator',
 			image: MortgageApp,
@@ -54,13 +54,13 @@ const Portfolio = () => {
 			description:
 				'Command line interface app to calculate mortgage and display the payment schedule built with TypeScript'
 		},
-		{
-			name: 'J.A.T.E',
-			image: ProgressiveWebApp,
-			repoLink: 'https://github.com/mahiv87/Progressive-Text-Editor',
-			deployedApp: 'https://floating-mesa-79476.herokuapp.com/',
-			description: 'PWA text editor'
-		},
+		// {
+		// 	name: 'J.A.T.E',
+		// 	image: ProgressiveWebApp,
+		// 	repoLink: 'https://github.com/mahiv87/Progressive-Text-Editor',
+		// 	deployedApp: 'https://floating-mesa-79476.herokuapp.com/',
+		// 	description: 'PWA text editor'
+		// },
 		{
 			name: 'Find_A_Book',
 			image: FindABook,
