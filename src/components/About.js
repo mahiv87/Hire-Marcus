@@ -5,7 +5,7 @@ const About = () => {
 	return (
 		<div className="about flex justify-center items-center animate-fadeIn">
 			<div
-				className="glass-container flex flex-wrap justify-center items-center"
+				className="glass-container max-w-6xl flex flex-wrap justify-center items-center"
 				id="glass"
 			>
 				<figure className="glass-container-profile " id="profile">
