@@ -1,12 +1,10 @@
 import ProjectsComponent from './Projects';
-// import CssSnippet from '../images/CSS_992.png';
 import ParkPass from '../images/parkpass.png';
-// import ProgressiveWebApp from '../images/PWA.png';
 import MortgageApp from '../images/mortgage-calculator.png';
 import TechBlog from '../images/Tech-Blog-dt.png';
 import ProjectTracker from '../images/ptss3.png';
-import FindABook from '../images/find-a-book.png';
 import MoovySpace from '../images/MoovySpace.png';
+import ReactSpringLibrary from '../images/rsl-d.png';
 
 const Portfolio = () => {
 	const projects = [
@@ -16,6 +14,14 @@ const Portfolio = () => {
 			repoLink: 'https://github.com/mahiv87/Project-Tracker',
 			deployedApp: 'https://project-tracker-303.herokuapp.com/',
 			description: 'React PWA to keep track of your projects'
+		},
+		{
+			name: 'React_Spring_Library',
+			image: ReactSpringLibrary,
+			repoLink: 'https://github.com/mahiv87/react-spring-books',
+			deployedApp: 'https://reactspringlibrary.netlify.app/',
+			description:
+				'Online Library app built with React front end and Spring Boot back end'
 		},
 		{
 			name: 'Park_Pass',
@@ -39,13 +45,6 @@ const Portfolio = () => {
 			deployedApp: 'https://calm-gorge-51353.herokuapp.com/',
 			description: 'Full stack CMS blog site'
 		},
-		// {
-		// 	name: 'CSS_Cheatsheet',
-		// 	image: CssSnippet,
-		// 	repoLink: 'https://github.com/mahiv87/CSS-Snippet-Cheatsheet',
-		// 	deployedApp: 'https://mahiv87.github.io/CSS-Snippet-Cheatsheet/',
-		// 	description: 'CSS snippets displayed as cards using grid'
-		// },
 		{
 			name: 'Mortgage_Calculator',
 			image: MortgageApp,
@@ -53,20 +52,6 @@ const Portfolio = () => {
 			deployedApp: false,
 			description:
 				'Command line interface app to calculate mortgage and display the payment schedule built with TypeScript'
-		},
-		// {
-		// 	name: 'J.A.T.E',
-		// 	image: ProgressiveWebApp,
-		// 	repoLink: 'https://github.com/mahiv87/Progressive-Text-Editor',
-		// 	deployedApp: 'https://floating-mesa-79476.herokuapp.com/',
-		// 	description: 'PWA text editor'
-		// },
-		{
-			name: 'Find_A_Book',
-			image: FindABook,
-			repoLink: 'https://github.com/mahiv87/find-a-book',
-			deployedApp: 'https://evening-temple-29103.herokuapp.com/',
-			description: 'Book search engine refactored from RESTful API to GraphQl'
 		}
 	];
 
